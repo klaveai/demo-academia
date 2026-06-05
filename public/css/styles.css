@@ -358,7 +358,7 @@ h4 { font-size: clamp(16px, 1.8vw, 20px); }
 .hero-bg {
   position: absolute;
   inset: 0;
-  background-image: url('https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1600&q=80');
+  background-image: url('/img/hero-classroom.jpg');
   background-size: cover;
   background-position: center 35%;
   transform: scale(1.03);
