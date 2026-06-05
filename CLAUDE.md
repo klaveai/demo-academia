@@ -71,7 +71,7 @@ Antes de generar cualquier output, leer:
 
 ## Estado del proyecto
 
-> Última actualización: 2026-06-05 (sesión 1)
+> Última actualización: 2026-06-05 (sesión 2)
 
 ### Construcción completada ✅
 
@@ -96,16 +96,12 @@ Antes de generar cualquier output, leer:
 | `/matricula` | `public/matricula.html` | ✅ |
 | `/contacto` | `public/contacto.html` | ✅ |
 
-### Pendiente (despliegue en VPS)
+### Fixes aplicados
 
-- [ ] Crear repo GitHub `demo-academia` y hacer primer push
-- [ ] Clonar repo en VPS: `git clone <url> /var/www/demo-academia/`
-- [ ] `npm install` en `/var/www/demo-academia/`
-- [ ] Añadir proceso PM2: `pm2 start server.js --name demo-academia`
-- [ ] Crear config Nginx: copiar `nginx.conf` a `/etc/nginx/sites-available/demo-academia.klaveai.es`
-- [ ] Enlazar Nginx: `ln -s /etc/nginx/sites-available/demo-academia.klaveai.es /etc/nginx/sites-enabled/`
-- [ ] Obtener SSL: `certbot --nginx -d demo-academia.klaveai.es`
-- [ ] Validar: `nginx -t && systemctl reload nginx`
+- **Zoom iOS en chatbot:** `font-size: 14px` → `16px` en `.chat-input` (regla base). iOS Safari hace zoom al enfocar inputs con fuente inferior a 16px; al usar Plus Jakarta Sans (fuente web externa) el bug era más evidente que con Inter. Fix aplicado en las 4 demos.
+
+### Pendiente
+
 - [ ] Enlace en klaveai.es → sección sectores → card Academia/Formación
 
 ## Flujo de despliegue
