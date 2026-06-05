@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Matrícula | Lingua Academia | Demo KlaveAI</title>
+  <meta name="description" content="Matricúlate en Lingua Academia de Idiomas. Inglés, francés, alemán e italiano. Prueba de nivel gratuita incluida.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+  <div class="klaveai-banner" id="klaveai-banner"></div>
+  <nav class="site-nav" id="site-nav"></nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <span class="section-eyebrow">Sin permanencia · Sin letra pequeña</span>
+      <h1>Solicitar matrícula</h1>
+      <p>Rellena el formulario y te llamamos en menos de 24 horas para organizarlo todo. La prueba de nivel es gratuita.</p>
+    </div>
+  </section>
+
+  <!-- Formulario + Info lateral -->
+  <section class="section">
+    <div class="container">
+      <div class="matricula-layout">
+
+        <!-- Formulario -->
+        <div>
+          <form id="matricula-form" novalidate>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="nombre">Nombre completo *</label>
+                <input class="form-control" type="text" id="nombre" name="nombre" placeholder="Tu nombre y apellidos" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="telefono">Teléfono *</label>
+                <input class="form-control" type="tel" id="telefono" name="telefono" placeholder="6XX XXX XXX" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="email">Correo electrónico</label>
+              <input class="form-control" type="email" id="email" name="email" placeholder="tu@correo.es">
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="idioma">Idioma que quieres aprender *</label>
+                <select class="form-control" id="idioma" name="idioma" required>
+                  <option value="" disabled selected>Selecciona un idioma</option>
+                  <option value="ingles">🇬🇧 Inglés</option>
+                  <option value="frances">🇫🇷 Francés</option>
+                  <option value="aleman">🇩🇪 Alemán</option>
+                  <option value="italiano">🇮🇹 Italiano</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="nivel">Nivel aproximado</label>
+                <select class="form-control" id="nivel" name="nivel">
+                  <option value="" disabled selected>Selecciona un nivel</option>
+                  <option value="no-se">No lo sé (haré la prueba)</option>
+                  <option value="a1">A1 — Principiante</option>
+                  <option value="a2">A2 — Básico</option>
+                  <option value="b1">B1 — Intermedio</option>
+                  <option value="b2">B2 — Intermedio alto</option>
+                  <option value="c1">C1 — Avanzado</option>
+                  <option value="c2">C2 — Maestría</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Horario preferido *</label>
+              <div style="display:grid;gap:10px;">
+                <label style="display:flex;align-items:center;gap:10px;cursor:pointer;padding:12px 16px;border:1.5px solid var(--gris-borde);border-radius:var(--radius);transition:border-color 0.2s;">
+                  <input type="radio" name="horario" value="manana" style="accent-color:var(--azul);width:16px;height:16px;" required>
+                  <span style="font-size:14px;font-weight:600;color:var(--gris-texto);">☀️ Mañana — grupos de 9:00 a 12:00</span>
+                </label>
+                <label style="display:flex;align-items:center;gap:10px;cursor:pointer;padding:12px 16px;border:1.5px solid var(--gris-borde);border-radius:var(--radius);transition:border-color 0.2s;">
+                  <input type="radio" name="horario" value="tarde" style="accent-color:var(--azul);width:16px;height:16px;">
+                  <span style="font-size:14px;font-weight:600;color:var(--gris-texto);">🌤 Tarde — grupos de 16:00 a 19:30</span>
+                </label>
+                <label style="display:flex;align-items:center;gap:10px;cursor:pointer;padding:12px 16px;border:1.5px solid var(--gris-borde);border-radius:var(--radius);transition:border-color 0.2s;">
+                  <input type="radio" name="horario" value="noche" style="accent-color:var(--azul);width:16px;height:16px;">
+                  <span style="font-size:14px;font-weight:600;color:var(--gris-texto);">🌙 Noche — grupos de 19:30 a 21:30</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="form-group" style="margin-top:8px;">
+              <label class="form-checkbox" for="prueba-nivel">
+                <input type="checkbox" id="prueba-nivel" name="prueba_nivel" style="width:18px;height:18px;accent-color:var(--azul);flex-shrink:0;cursor:pointer;">
+                <div class="form-checkbox-label">
+                  Quiero hacer la prueba de nivel gratuita
+                  <span>Te llamamos para organizarla. Sin compromiso.</span>
+                </div>
+              </label>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="mensaje">¿Algo más que quieras contarnos?</label>
+              <textarea class="form-control" id="mensaje" name="mensaje" rows="3" placeholder="Objetivos, dudas, fechas de incorporación…" style="resize:vertical;"></textarea>
+            </div>
+
+            <button type="submit" class="form-submit-btn">Enviar solicitud</button>
+            <p class="form-legal">Al enviar este formulario aceptas que te contactemos para gestionar tu matrícula. Sin spam, sin cesión de datos a terceros.</p>
+
+          </form>
+
+          <!-- Confirmación -->
+          <div class="form-success" id="form-success">
+            <span class="form-success-icon">🎉</span>
+            <h3>¡Solicitud recibida!</h3>
+            <p>Te llamamos en menos de 24 horas para organizar todo. Si elegiste la prueba de nivel, te confirmamos fecha y hora en esa misma llamada.</p>
+            <p style="margin-top:12px;">¿Tienes prisa? Llámanos al <strong style="color:var(--azul)">91 567 89 01</strong> ahora mismo.</p>
+          </div>
+        </div>
+
+        <!-- Info lateral -->
+        <div class="matricula-info">
+
+          <div class="matricula-precio-box">
+            <h4>Precios</h4>
+            <div class="precio-linea">
+              <span>Grupos (máx. 8 alumnos)</span>
+              <span class="precio-valor">89€/mes</span>
+            </div>
+            <div class="precio-linea">
+              <span>Clases individuales</span>
+              <span class="precio-valor">45€/hora</span>
+            </div>
+            <div class="precio-linea">
+              <span>Prueba de nivel</span>
+              <span class="precio-valor" style="color:#4ade80">Gratis</span>
+            </div>
+            <div class="precio-linea">
+              <span>Matrícula de inscripción</span>
+              <span class="precio-valor" style="color:#4ade80">Gratis</span>
+            </div>
+          </div>
+
+          <div class="matricula-info-card">
+            <h4>¿Qué pasa después?</h4>
+            <ul>
+              <li>Te llamamos en menos de 24 h</li>
+              <li>Hacemos la prueba de nivel (si la pediste)</li>
+              <li>Te asignamos al grupo más adecuado</li>
+              <li>Confirmas el horario y empiezas</li>
+            </ul>
+          </div>
+
+          <div class="matricula-info-card">
+            <h4>Sin letra pequeña</h4>
+            <p>No hay permanencia mínima. No hay matrícula de inscripción. Pagas mes a mes y puedes pausar o cancelar cuando necesites.</p>
+          </div>
+
+          <div class="matricula-info-card" style="background:var(--azul-claro);border:1.5px solid var(--gris-borde);">
+            <h4>¿Prefieres venir en persona?</h4>
+            <p>Pásate por la academia en horario de atención y lo organizamos en el momento.</p>
+            <p style="margin-top:8px;font-weight:700;color:var(--azul);">Calle Atocha 22, Madrid<br>Lunes a sábado · 9:00–21:00</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer" id="site-footer"></footer>
+
+  <script src="/js/components.js"></script>
+  <script src="/js/chatbot.js"></script>
+  <script>
+    (function () {
+      const form    = document.getElementById('matricula-form')
+      const success = document.getElementById('form-success')
+
+      form.addEventListener('submit', function (e) {
+        e.preventDefault()
+
+        const nombre   = document.getElementById('nombre').value.trim()
+        const telefono = document.getElementById('telefono').value.trim()
+        const idioma   = document.getElementById('idioma').value
+        const horario  = document.querySelector('input[name="horario"]:checked')
+
+        if (!nombre || !telefono || !idioma || !horario) {
+          alert('Por favor, rellena los campos obligatorios: nombre, teléfono, idioma y horario.')
+          return
+        }
+
+        form.style.display = 'none'
+        success.classList.add('visible')
+        success.scrollIntoView({ behavior: 'smooth', block: 'center' })
+      })
+    })()
+  </script>
+</body>
+</html>

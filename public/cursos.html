@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Cursos de Idiomas | Lingua Academia | Demo KlaveAI</title>
+  <meta name="description" content="Todos los cursos de inglés, francés, alemán e italiano. Niveles A1 a C2 con horarios de mañana, tarde y noche desde 89€/mes.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+  <div class="klaveai-banner" id="klaveai-banner"></div>
+  <nav class="site-nav" id="site-nav"></nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <span class="section-eyebrow">Nuestros cursos</span>
+      <h1>Cursos de idiomas</h1>
+      <p>Inglés, francés, alemán e italiano. Todos los niveles del Marco Europeo, con grupos de mañana, tarde y noche.</p>
+    </div>
+  </section>
+
+  <!-- Tabs + Niveles -->
+  <section class="section">
+    <div class="container">
+
+      <!-- Precios rápidos -->
+      <div style="display:flex;flex-wrap:wrap;gap:16px;margin-bottom:40px;">
+        <div style="background:var(--azul-claro);border-radius:var(--radius);padding:16px 24px;flex:1;min-width:200px;">
+          <div style="font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--azul);margin-bottom:4px;">Grupos (hasta 8 alumnos)</div>
+          <div style="font-size:28px;font-weight:800;color:var(--azul);">89€<span style="font-size:14px;font-weight:400;color:var(--gris-medio)">/mes</span></div>
+        </div>
+        <div style="background:var(--azul-claro);border-radius:var(--radius);padding:16px 24px;flex:1;min-width:200px;">
+          <div style="font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--azul);margin-bottom:4px;">Clases individuales</div>
+          <div style="font-size:28px;font-weight:800;color:var(--azul);">45€<span style="font-size:14px;font-weight:400;color:var(--gris-medio)">/hora</span></div>
+        </div>
+        <div style="background:var(--amarillo);border-radius:var(--radius);padding:16px 24px;flex:1;min-width:200px;display:flex;align-items:center;gap:14px;">
+          <div>
+            <div style="font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--azul);margin-bottom:4px;">Prueba de nivel</div>
+            <div style="font-size:18px;font-weight:800;color:var(--azul);">Gratuita y sin compromiso</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tabs -->
+      <div class="tabs-nav" role="tablist">
+        <button class="tab-btn active" data-tab="ingles" role="tab" aria-selected="true">
+          <span class="tab-flag">🇬🇧</span> Inglés
+        </button>
+        <button class="tab-btn" data-tab="frances" role="tab" aria-selected="false">
+          <span class="tab-flag">🇫🇷</span> Francés
+        </button>
+        <button class="tab-btn" data-tab="aleman" role="tab" aria-selected="false">
+          <span class="tab-flag">🇩🇪</span> Alemán
+        </button>
+        <button class="tab-btn" data-tab="italiano" role="tab" aria-selected="false">
+          <span class="tab-flag">🇮🇹</span> Italiano
+        </button>
+      </div>
+
+      <!-- Tab: Inglés -->
+      <div class="tab-panel active" id="tab-ingles">
+        <div class="niveles-grid">
+
+          <div class="nivel-card">
+            <div class="nivel-header">
+              <span class="nivel-badge">A1</span>
+              <span class="nivel-nombre">Principiante</span>
+            </div>
+            <p class="nivel-desc">Para quienes empiezan desde cero. Vocabulario básico, saludos, presentaciones y rutinas cotidianas.</p>
+            <div class="nivel-info">
+              <div class="nivel-info-row">
+                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                Mañana (9:00–10:30) · Tarde (17:00–18:30)
+              </div>
+              <div class="nivel-info-row">
+                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                Máx. 8 alumnos · Clases 3 veces/semana
+              </div>
+            </div>
+            <div class="nivel-precio">
+              <span class="nivel-precio-grupo">89€</span><span class="nivel-precio-sep">/</span><span class="nivel-precio-individual">45€/h individual</span>
+            </div>
+            <span class="nivel-precio-label">Por mes · Grupo</span>
+            <a href="/matricula" class="nivel-cta">Prueba de nivel gratis →</a>
+          </div>
+
+          <div class="nivel-card">
+            <div class="nivel-header">
+              <span class="nivel-badge">A2</span>
+              <span class="nivel-nombre">Básico</span>
+            </div>
+            <p class="nivel-desc">Consolidas lo básico y empiezas a expresarte en situaciones cotidianas con más soltura y confianza.</p>
+            <div class="nivel-info">
+              <div class="nivel-info-row">
+                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                Mañana (10:30–12:00) · Noche (19:30–21:00)
+              </div>
+              <div class="nivel-info-row">
+                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                Máx. 8 alumnos · Clases 3 veces/semana
+              </div>
+            </div>
+            <div class="nivel-precio">
+              <span class="nivel-precio-grupo">89€</span><span class="nivel-precio-sep">/</span><span class="nivel-precio-individual">45€/h individual</span>
+            </div>
+            <span class="nivel-precio-label">Por mes · Grupo</span>
+            <a href="/matricula" class="nivel-cta">Prueba de nivel gratis →</a>
+          </div>
+
+          <div class="nivel-card">
+            <div class="nivel-header">
+              <span class="nivel-badge">B1</span>
+              <span class="nivel-nombre">Intermedio</span>
+            </div>
+            <p class="nivel-desc">Ya entiendes el idioma en situaciones habituales y puedes mantener conversaciones sobre temas familiares.</p>
+            <div class="nivel-info">
+              <div class="nivel-info-row">
+                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                Tarde (16:00–17:30) · Noche (20:00–21:30)
+              </div>
+              <div class="nivel-info-row">
+                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                Máx. 8 alumnos · Clases 3 veces/semana
+              </div>
+            </div>
+            <div class="nivel-precio">
+              <span class="nivel-precio-grupo">89€</span><span class="nivel-precio-sep">/</span><span class="nivel-precio-individual">45€/h individual</span>
+            </div>
+            <span class="nivel-precio-label">Por mes · Grupo</span>
+            <a href="/matricula" class="nivel-cta">Prueba de nivel gratis →</a>
+          </div>
+
+          <div class="nivel-card">
+            <div class="nivel-header">
+              <span class="nivel-badge">B2</span>
+              <span class="nivel-nombre">Intermedio alto</span>
+            </div>
+            <p class="nivel-desc">Te desenvuelves con soltura en casi cualquier situación. Textos complejos, debates y reuniones de trabajo.</p>
+            <div class="nivel-info">
+              <div class="nivel-info-row">
+                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                Mañana (9:00–10:30) · Tarde (18:00–19:30)
+              </div>
+              <div class="nivel-info-row">
+                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                Máx. 8 alumnos · Clases 3 veces/semana
+              </div>
+            </div>
+            <div class="nivel-precio">
+              <span class="nivel-precio-grupo">89€</span><span class="nivel-precio-sep">/</span><span class="nivel-precio-individual">45€/h individual</span>
+            </div>
+            <span class="nivel-precio-label">Por mes · Grupo</span>
+            <a href="/matricula" class="nivel-cta">Prueba de nivel gratis →</a>
+          </div>
+
+          <div class="nivel-card">
+            <div class="nivel-header">
+              <span class="nivel-badge">C1</span>
+              <span class="nivel-nombre">Avanzado</span>
+            </div>
+            <p class="nivel-desc">Dominas el idioma con fluidez y precisión. Para profesionales que necesitan el idioma en su trabajo diario.</p>
+            <div class="nivel-info">
+              <div class="nivel-info-row">
+                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                Tarde (17:00–18:30) · Noche (19:30–21:00)
+              </div>
+              <div class="nivel-info-row">
+                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                Máx. 8 alumnos · Clases 2 veces/semana
+              </div>
+            </div>
+            <div class="nivel-precio">
+              <span class="nivel-precio-grupo">89€</span><span class="nivel-precio-sep">/</span><span class="nivel-precio-individual">45€/h individual</span>
+            </div>
+            <span class="nivel-precio-label">Por mes · Grupo</span>
+            <a href="/matricula" class="nivel-cta">Prueba de nivel gratis →</a>
+          </div>
+
+          <div class="nivel-card">
+            <div class="nivel-header">
+              <span class="nivel-badge">C2</span>
+              <span class="nivel-nombre">Maestría</span>
+            </div>
+            <p class="nivel-desc">Nivel de hablante nativo. Preparación para certificaciones oficiales y uso profesional de alta exigencia.</p>
+            <div class="nivel-info">
+              <div class="nivel-info-row">
+                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                Mañana (10:00–12:00) · Consultar disponibilidad
+              </div>
+              <div class="nivel-info-row">
+                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                Máx. 6 alumnos · Clases 2 veces/semana
+              </div>
+            </div>
+            <div class="nivel-precio">
+              <span class="nivel-precio-grupo">89€</span><span class="nivel-precio-sep">/</span><span class="nivel-precio-individual">45€/h individual</span>
+            </div>
+            <span class="nivel-precio-label">Por mes · Grupo</span>
+            <a href="/matricula" class="nivel-cta">Prueba de nivel gratis →</a>
+          </div>
+
+        </div>
+      </div><!-- /tab-ingles -->
+
+      <!-- Tab: Francés -->
+      <div class="tab-panel" id="tab-frances">
+        <div class="niveles-grid">
+          <div class="nivel-card">
+            <div class="nivel-header"><span class="nivel-badge">A1</span><span class="nivel-nombre">Débutant</span></div>
+            <p class="nivel-desc">Los primeros pasos en francés. Pronunciación, saludos, números y las frases imprescindibles del día a día.</p>
+            <div class="nivel-info">
+              <div class="nivel-info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Mañana (9:30–11:00) · Tarde (17:30–19:00)</div>
+              <div class="nivel-info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> Máx. 8 alumnos · 3 veces/semana</div>
+            </div>
+            <div class="nivel-precio"><span class="nivel-precio-grupo">89€</span><span class="nivel-precio-sep">/</span><span class="nivel-precio-individual">45€/h individual</span></div>
+            <span class="nivel-precio-label">Por mes · Grupo</span>
+            <a href="/matricula" class="nivel-cta">Prueba de nivel gratis →</a>
+          </div>
+          <div class="nivel-card">
+            <div class="nivel-header"><span class="nivel-badge">A2</span><span class="nivel-nombre">Élémentaire</span></div>
+            <p class="nivel-desc">Ampliás el vocabulario y empiezas a entender conversaciones cotidianas con más facilidad y confianza.</p>
+            <div class="nivel-info">
+              <div class="nivel-info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Tarde (16:30–18:00) · Noche (19:00–20:30)</div>
+              <div class="nivel-info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> Máx. 8 alumnos · 3 veces/semana</div>
+            </div>
+            <div class="nivel-precio"><span class="nivel-precio-grupo">89€</span><span class="nivel-precio-sep">/</span><span class="nivel-precio-individual">45€/h individual</span></div>
+            <span class="nivel-precio-label">Por mes · Grupo</span>
+            <a href="/matricula" class="nivel-cta">Prueba de nivel gratis →</a>
+          </div>
+          <div class="nivel-card">
+            <div class="nivel-header"><span class="nivel-badge">B1</span><span class="nivel-nombre">Intermédiaire</span></div>
+            <p class="nivel-desc">Te desenvuelves en Francia. Conversaciones sobre trabajo, viajes y cultura con fluidez creciente.</p>
+            <div class="nivel-info">
+              <div class="nivel-info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Mañana (10:00–11:30) · Noche (20:00–21:30)</div>
+              <div class="nivel-info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> Máx. 8 alumnos · 3 veces/semana</div>
+            </div>
+            <div class="nivel-precio"><span class="nivel-precio-grupo">89€</span><span class="nivel-precio-sep">/</span><span class="nivel-precio-individual">45€/h individual</span></div>
+            <span class="nivel-precio-label">Por mes · Grupo</span>
+            <a href="/matricula" class="nivel-cta">Prueba de nivel gratis →</a>
+          </div>
+          <div class="nivel-card">
+            <div class="nivel-header"><span class="nivel-badge">B2</span><span class="nivel-nombre">Avancé</span></div>
+            <p class="nivel-desc">Lees Le Monde sin diccionario, ves series en francés y debatés con soltura cualquier tema.</p>
+            <div class="nivel-info">
+              <div class="nivel-info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Tarde (17:00–18:30) · Noche (19:00–20:30)</div>
+              <div class="nivel-info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> Máx. 8 alumnos · 2–3 veces/semana</div>
+            </div>
+            <div class="nivel-precio"><span class="nivel-precio-grupo">89€</span><span class="nivel-precio-sep">/</span><span class="nivel-precio-individual">45€/h individual</span></div>
+            <span class="nivel-precio-label">Por mes · Grupo</span>
+            <a href="/matricula" class="nivel-cta">Prueba de nivel gratis →</a>
+          </div>
+          <div class="nivel-card">
+            <div class="nivel-header"><span class="nivel-badge">C1</span><span class="nivel-nombre">Confirmé</span></div>
+            <p class="nivel-desc">Nivel profesional. Redacción, argumentación y matices culturales para quien vive o trabaja con el francés.</p>
+            <div class="nivel-info">
+              <div class="nivel-info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Consultar disponibilidad</div>
+              <div class="nivel-info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> Máx. 6 alumnos · 2 veces/semana</div>
+            </div>
+            <div class="nivel-precio"><span class="nivel-precio-grupo">89€</span><span class="nivel-precio-sep">/</span><span class="nivel-precio-individual">45€/h individual</span></div>
+            <span class="nivel-precio-label">Por mes · Grupo</span>
+            <a href="/matricula" class="nivel-cta">Prueba de nivel gratis →</a>
+          </div>
+          <div class="nivel-card">
+            <div class="nivel-header"><span class="nivel-badge">C2</span><span class="nivel-nombre">Maîtrise</span></div>
+            <p class="nivel-desc">Dominio total del idioma. Preparación para certificaciones DALF y uso académico o literario del francés.</p>
+            <div class="nivel-info">
+              <div class="nivel-info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Consultar disponibilidad</div>
+              <div class="nivel-info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> Máx. 6 alumnos · 2 veces/semana</div>
+            </div>
+            <div class="nivel-precio"><span class="nivel-precio-grupo">89€</span><span class="nivel-precio-sep">/</span><span class="nivel-precio-individual">45€/h individual</span></div>
+            <span class="nivel-precio-label">Por mes · Grupo</span>
+            <a href="/matricula" class="nivel-cta">Prueba de nivel gratis →</a>
+          </div>
+        </div>
+      </div><!-- /tab-frances -->
+
+      <!-- Tab: Alemán -->
+      <div class="tab-panel" id="tab-aleman">
+        <div class="niveles-grid">
+          <div class="nivel-card">
+            <div class="nivel-header"><span class="nivel-badge">A1</span><span class="nivel-nombre">Anfänger</span></div>
+            <p class="nivel-desc">Primeros pasos en alemán. Fonética específica, artículos y las estructuras básicas para comunicarte.</p>
+            <div class="nivel-info">
+              <div class="nivel-info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Mañana (9:00–10:30) · Noche (19:00–20:30)</div>
+              <div class="nivel-info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> Máx. 8 alumnos · 3 veces/semana</div>
+            </div>
+            <div class="nivel-precio"><span class="nivel-precio-grupo">89€</span><span class="nivel-precio-sep">/</span><span class="nivel-precio-individual">45€/h individual</span></div>
+            <span class="nivel-precio-label">Por mes · Grupo</span>
+            <a href="/matricula" class="nivel-cta">Prueba de nivel gratis →</a>
+          </div>
+          <div class="nivel-card">
+            <div class="nivel-header"><span class="nivel-badge">A2</span><span class="nivel-nombre">Grundstufe</span></div>
+            <p class="nivel-desc">Consolidas la gramática básica y ampliás el vocabulario para conversaciones sencillas del día a día.</p>
+            <div class="nivel-info">
+              <div class="nivel-info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Tarde (17:00–18:30) · Noche (20:00–21:30)</div>
+              <div class="nivel-info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> Máx. 8 alumnos · 3 veces/semana</div>
+            </div>
+            <div class="nivel-precio"><span class="nivel-precio-grupo">89€</span><span class="nivel-precio-sep">/</span><span class="nivel-precio-individual">45€/h individual</span></div>
+            <span class="nivel-precio-label">Por mes · Grupo</span>
+            <a href="/matricula" class="nivel-cta">Prueba de nivel gratis →</a>
+          </div>
+          <div class="nivel-card">
+            <div class="nivel-header"><span class="nivel-badge">B1</span><span class="nivel-nombre">Mittelstufe</span></div>
+            <p class="nivel-desc">Te desenvuelves en Alemania o Austria. Gramática compleja y conversaciones sobre temas de actualidad.</p>
+            <div class="nivel-info">
+              <div class="nivel-info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Mañana (10:30–12:00) · Tarde (16:30–18:00)</div>
+              <div class="nivel-info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> Máx. 8 alumnos · 3 veces/semana</div>
+            </div>
+            <div class="nivel-precio"><span class="nivel-precio-grupo">89€</span><span class="nivel-precio-sep">/</span><span class="nivel-precio-individual">45€/h individual</span></div>
+            <span class="nivel-precio-label">Por mes · Grupo</span>
+            <a href="/matricula" class="nivel-cta">Prueba de nivel gratis →</a>
+          </div>
+          <div class="nivel-card">
+            <div class="nivel-header"><span class="nivel-badge">B2</span><span class="nivel-nombre">Oberstufe</span></div>
+            <p class="nivel-desc">Alemán fluido para trabajo y estudios. Reuniones, contratos y cultura alemana sin dificultades.</p>
+            <div class="nivel-info">
+              <div class="nivel-info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Tarde (18:00–19:30) · Noche (19:30–21:00)</div>
+              <div class="nivel-info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> Máx. 8 alumnos · 2–3 veces/semana</div>
+            </div>
+            <div class="nivel-precio"><span class="nivel-precio-grupo">89€</span><span class="nivel-precio-sep">/</span><span class="nivel-precio-individual">45€/h individual</span></div>
+            <span class="nivel-precio-label">Por mes · Grupo</span>
+            <a href="/matricula" class="nivel-cta">Prueba de nivel gratis →</a>
+          </div>
+          <div class="nivel-card">
+            <div class="nivel-header"><span class="nivel-badge">C1</span><span class="nivel-nombre">Fortgeschritten</span></div>
+            <p class="nivel-desc">Alemán de alto nivel para profesionales que trabajan en empresas alemanas o estudian en Alemania.</p>
+            <div class="nivel-info">
+              <div class="nivel-info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Consultar disponibilidad</div>
+              <div class="nivel-info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> Máx. 6 alumnos · 2 veces/semana</div>
+            </div>
+            <div class="nivel-precio"><span class="nivel-precio-grupo">89€</span><span class="nivel-precio-sep">/</span><span class="nivel-precio-individual">45€/h individual</span></div>
+            <span class="nivel-precio-label">Por mes · Grupo</span>
+            <a href="/matricula" class="nivel-cta">Prueba de nivel gratis →</a>
+          </div>
+          <div class="nivel-card">
+            <div class="nivel-header"><span class="nivel-badge">C2</span><span class="nivel-nombre">Meisterschaft</span></div>
+            <p class="nivel-desc">Dominio total. Preparación para el TestDaF, Goethe-Zertifikat C2 y uso académico o literario.</p>
+            <div class="nivel-info">
+              <div class="nivel-info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Consultar disponibilidad</div>
+              <div class="nivel-info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> Máx. 6 alumnos · 2 veces/semana</div>
+            </div>
+            <div class="nivel-precio"><span class="nivel-precio-grupo">89€</span><span class="nivel-precio-sep">/</span><span class="nivel-precio-individual">45€/h individual</span></div>
+            <span class="nivel-precio-label">Por mes · Grupo</span>
+            <a href="/matricula" class="nivel-cta">Prueba de nivel gratis →</a>
+          </div>
+        </div>
+      </div><!-- /tab-aleman -->
+
+      <!-- Tab: Italiano -->
+      <div class="tab-panel" id="tab-italiano">
+        <div class="niveles-grid">
+          <div class="nivel-card">
+            <div class="nivel-header"><span class="nivel-badge">A1</span><span class="nivel-nombre">Principiante</span></div>
+            <p class="nivel-desc">La musicalidad del italiano desde el principio. Pronunciación, saludos y las primeras conversaciones.</p>
+            <div class="nivel-info">
+              <div class="nivel-info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Mañana (10:00–11:30) · Tarde (17:00–18:30)</div>
+              <div class="nivel-info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> Máx. 8 alumnos · 3 veces/semana</div>
+            </div>
+            <div class="nivel-precio"><span class="nivel-precio-grupo">89€</span><span class="nivel-precio-sep">/</span><span class="nivel-precio-individual">45€/h individual</span></div>
+            <span class="nivel-precio-label">Por mes · Grupo</span>
+            <a href="/matricula" class="nivel-cta">Prueba de nivel gratis →</a>
+          </div>
+          <div class="nivel-card">
+            <div class="nivel-header"><span class="nivel-badge">A2</span><span class="nivel-nombre">Elementare</span></div>
+            <p class="nivel-desc">Más vocabulario, más confianza. Conversaciones sobre familia, trabajo y viajes por Italia.</p>
+            <div class="nivel-info">
+              <div class="nivel-info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Tarde (16:00–17:30) · Noche (19:30–21:00)</div>
+              <div class="nivel-info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> Máx. 8 alumnos · 3 veces/semana</div>
+            </div>
+            <div class="nivel-precio"><span class="nivel-precio-grupo">89€</span><span class="nivel-precio-sep">/</span><span class="nivel-precio-individual">45€/h individual</span></div>
+            <span class="nivel-precio-label">Por mes · Grupo</span>
+            <a href="/matricula" class="nivel-cta">Prueba de nivel gratis →</a>
+          </div>
+          <div class="nivel-card">
+            <div class="nivel-header"><span class="nivel-badge">B1</span><span class="nivel-nombre">Intermedio</span></div>
+            <p class="nivel-desc">Películas, noticias y conversaciones fluidas en italiano. Te defiendes en cualquier situación.</p>
+            <div class="nivel-info">
+              <div class="nivel-info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Mañana (9:30–11:00) · Noche (20:00–21:30)</div>
+              <div class="nivel-info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> Máx. 8 alumnos · 3 veces/semana</div>
+            </div>
+            <div class="nivel-precio"><span class="nivel-precio-grupo">89€</span><span class="nivel-precio-sep">/</span><span class="nivel-precio-individual">45€/h individual</span></div>
+            <span class="nivel-precio-label">Por mes · Grupo</span>
+            <a href="/matricula" class="nivel-cta">Prueba de nivel gratis →</a>
+          </div>
+          <div class="nivel-card">
+            <div class="nivel-header"><span class="nivel-badge">B2</span><span class="nivel-nombre">Avanzato</span></div>
+            <p class="nivel-desc">Italiano para vivir o trabajar en Italia. Debate, argumentación y matices culturales profundos.</p>
+            <div class="nivel-info">
+              <div class="nivel-info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Tarde (17:30–19:00) · Consultar disponibilidad</div>
+              <div class="nivel-info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> Máx. 8 alumnos · 2–3 veces/semana</div>
+            </div>
+            <div class="nivel-precio"><span class="nivel-precio-grupo">89€</span><span class="nivel-precio-sep">/</span><span class="nivel-precio-individual">45€/h individual</span></div>
+            <span class="nivel-precio-label">Por mes · Grupo</span>
+            <a href="/matricula" class="nivel-cta">Prueba de nivel gratis →</a>
+          </div>
+          <div class="nivel-card">
+            <div class="nivel-header"><span class="nivel-badge">C1</span><span class="nivel-nombre">Superiore</span></div>
+            <p class="nivel-desc">Italiano de alta precisión. Para quienes trabajan con socios italianos o estudian arte, moda o diseño.</p>
+            <div class="nivel-info">
+              <div class="nivel-info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Consultar disponibilidad</div>
+              <div class="nivel-info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> Máx. 6 alumnos · 2 veces/semana</div>
+            </div>
+            <div class="nivel-precio"><span class="nivel-precio-grupo">89€</span><span class="nivel-precio-sep">/</span><span class="nivel-precio-individual">45€/h individual</span></div>
+            <span class="nivel-precio-label">Por mes · Grupo</span>
+            <a href="/matricula" class="nivel-cta">Prueba de nivel gratis →</a>
+          </div>
+          <div class="nivel-card">
+            <div class="nivel-header"><span class="nivel-badge">C2</span><span class="nivel-nombre">Padronanza</span></div>
+            <p class="nivel-desc">Dominio nativo. Preparación para certificaciones CELI/PLIDA y uso literario o académico del italiano.</p>
+            <div class="nivel-info">
+              <div class="nivel-info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Consultar disponibilidad</div>
+              <div class="nivel-info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> Máx. 6 alumnos · 2 veces/semana</div>
+            </div>
+            <div class="nivel-precio"><span class="nivel-precio-grupo">89€</span><span class="nivel-precio-sep">/</span><span class="nivel-precio-individual">45€/h individual</span></div>
+            <span class="nivel-precio-label">Por mes · Grupo</span>
+            <a href="/matricula" class="nivel-cta">Prueba de nivel gratis →</a>
+          </div>
+        </div>
+      </div><!-- /tab-italiano -->
+
+      <!-- Nota informativa -->
+      <div class="cursos-nota">
+        <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="flex-shrink:0;color:var(--azul)"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        <span><strong>¿No sabes tu nivel?</strong> Realizamos una prueba de nivel gratuita para orientarte al grupo más adecuado. Sin compromiso. <a href="/matricula" style="color:var(--azul);font-weight:700;text-decoration:underline">Pídela aquí →</a></span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-matricula">
+    <div class="container">
+      <span class="section-eyebrow" style="color:var(--amarillo)">Empieza cuando quieras</span>
+      <h2>Incorporación continua durante el curso</h2>
+      <p>No esperes a septiembre. En Lingua puedes incorporarte en cualquier momento del año al nivel que te corresponda.</p>
+      <a href="/matricula" class="btn btn-primary">Solicitar matrícula</a>
+    </div>
+  </section>
+
+  <footer class="site-footer" id="site-footer"></footer>
+
+  <script src="/js/components.js"></script>
+  <script src="/js/chatbot.js"></script>
+  <script>
+    (function () {
+      const tabs = document.querySelectorAll('.tab-btn')
+      const panels = document.querySelectorAll('.tab-panel')
+
+      tabs.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const target = btn.dataset.tab
+
+          tabs.forEach(t => { t.classList.remove('active'); t.setAttribute('aria-selected', 'false') })
+          panels.forEach(p => p.classList.remove('active'))
+
+          btn.classList.add('active')
+          btn.setAttribute('aria-selected', 'true')
+          document.getElementById('tab-' + target).classList.add('active')
+        })
+      })
+    })()
+  </script>
+</body>
+</html>

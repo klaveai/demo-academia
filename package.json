@@ -1,0 +1,12 @@
+{
+  "name": "demo-academia",
+  "version": "1.0.0",
+  "description": "Lingua Academia de Idiomas — Demo sectorial · KlaveAI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
